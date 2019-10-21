@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.all {
+    position: relative;
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    height: 595px;
+}
+
+.slide {
+    width: 100%;
+}
