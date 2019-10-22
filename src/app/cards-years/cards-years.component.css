@@ -1,5 +1,56 @@
-.all {
+.all-div {
     text-align: center;
-    border: 1px solid black;
-    margin: 5px 0px 0px 0px;
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.player,
+.player1,
+.player2 {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 20;
+}
+
+.player1,
+.player2 {
+    margin-top: 10px;
+}
+
+.player div,
+.player1 div,
+.player2 div {
+    background: #FFF;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.player .back,
+.player1 .back1,
+.player2 .back2 {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 46px;
+    left: 8px;
+    background: red;
+    width: 350px;
+    height: 500px;
+}
+
+.player.voted,
+.player1.voted1,
+.player2.voted2 {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg)
+}
+
+.images-card {
+    width: 350px;
+    height: 500px;
 }
