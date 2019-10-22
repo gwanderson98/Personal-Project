@@ -19,6 +19,7 @@ export class IntroComponent implements OnInit {
       // { id: 2,  name:'japa2', path: imgJapa2 },
       // { id: 3,  name:'tchiquen', path: imgTchiquen }
     ];
+    
 
 
   constructor() { }

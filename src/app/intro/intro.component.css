@@ -3,14 +3,13 @@ body {
     padding: 0px;
 }
 
-.all {
+.div-slideshow {
     position: relative;
     text-align: center;
-    background-color: lightblue;
-    border: 1px solid black;
     height: 595px;
+    margin-top: 1px;
 }
 
-.slide {
-    width: 100%;
+.slideShow{
+   
 }
