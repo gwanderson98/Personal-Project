@@ -11,7 +11,7 @@
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     -webkit-transition: all 600ms;
-    transition: all 600ms;
+    transition: all 900ms;
     z-index: 20;
 }
 
@@ -36,18 +36,23 @@
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     position: absolute;
-    top: 46px;
-    left: 8px;
+    top: 44px;
+    left: 25px;
     background: red;
     width: 350px;
     height: 500px;
+}
+.front, .front1, .front2{
+    width: 353px;
+    display: block;
+    margin: auto;
 }
 
 .player.voted,
 .player1.voted1,
 .player2.voted2 {
     transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg)
+    -webkit-transform: rotateY(180deg);
 }
 
 .images-card {
